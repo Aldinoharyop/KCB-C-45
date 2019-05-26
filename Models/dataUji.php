@@ -17,7 +17,7 @@
             $waktu = $arr['waktu'];
             $jaminan = $arr['jaminan'];
             $kelas = $arr['kelas'];
-            $sql = "INSERT INTO artikel (nama, umur, pekerjaan, penghasilan, tanggungan, kredit, waktu, jaminan, kelas) VALUES ('$nama', '$umur', '$pekerjaan', '$penghasilan', '$tanggungan', '$kredit', '$waktu', '$jaminan', '$kelas')";
+            $sql = "INSERT INTO dt_hasil (nama, umur, pekerjaan, penghasilan, tanggungan, kredit, waktu, jaminan, kelas) VALUES ('$nama', '$umur', '$pekerjaan', '$penghasilan', '$tanggungan', '$kredit', '$waktu', '$jaminan', '$kelas')";
             return mysqli_query($this->conn, $sql);
         }
 

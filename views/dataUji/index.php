@@ -23,9 +23,9 @@
               <h3 class="masthead-brand">KCB C-45</h3>
             </a>
             <nav class="nav nav-masthead justify-content-center">
-            <a class="nav-link active" href="../index.php">Home</a>
+            <a class="nav-link" href="../../index.php">Home</a>
             <a class="nav-link" href="../dataLatih/index.php">Data Latih</a>
-            <a class="nav-link" href="../dataUji/index.php">Data Uji</a>
+            <a class="nav-link active" href="../dataUji/index.php">Data Uji</a>
             </nav>
           </div>
         </header>

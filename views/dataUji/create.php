@@ -109,12 +109,12 @@
 
           <div class="form-group row">
             <div class="col-md-5">
-              <label for="form_jumlahKredit">Jumlah Kredit</label>
+              <label for="form_kredit">Jumlah Kredit</label>
             </div>
             <div class="col-md-7">
-              <select class="custom-select form-control-sm" name="jumlahKredit">
+              <select class="custom-select form-control-sm" name="kredit">
                 <option selected>Pilih</option>
-                <option value="< 50 juta">< 50 juta</option>
+                <option value="< 50 juta"> < 50 juta</option>
                 <option value="50-100 juta">50 - 100 juta</option>
                 <option value="101-150 juta">101 - 150 juta</option>
                 <option value="151-200 juta">151 - 200 juta</option>
@@ -127,10 +127,10 @@
 
           <div class="form-group row">
             <div class="col-md-5">
-              <label for="form_jangkaWaktu">Jangka Waktu</label>
+              <label for="form_waktu">Jangka Waktu</label>
             </div>
             <div class="col-md-7">
-              <select class="custom-select form-control-sm" name="jangkaWaktu">
+              <select class="custom-select form-control-sm" name="waktu">
                 <option selected>Pilih</option>
                 <option value="<3 tahun"> < 3 tahun</option>
                 <option value="3-5 tahun">3 - 5 tahun</option>
@@ -142,10 +142,10 @@
 
           <div class="form-group row">
             <div class="col-md-5">
-              <label for="form_nilaiJaminan">Nilai Jaminan</label>
+              <label for="form_jaminan">Nilai Jaminan</label>
             </div>
             <div class="col-md-7">
-              <select class="custom-select form-control-sm" name="nilaiJaminan">
+              <select class="custom-select form-control-sm" name="jaminan">
                 <option selected>Pilih</option>
                 <option value="125-150 %">125 - 150 %</option>
                 <option value="151-176 %">151 - 176 %</option>
