@@ -27,7 +27,6 @@
             <a class="nav-link active" href="#">Home</a>
             <a class="nav-link" href="dataLatih/index.php">Data Latih</a>
             <a class="nav-link" href="dataUji/index.php">Data Uji</a>
-            <a class="nav-link" href="views/view_registrasi.php">Lihat Pendaftar</a>
 
           </nav>
         </div>
@@ -35,7 +34,7 @@
 
       <main role="main" class="inner cover">
         <h1 class="cover-heading">SPK Kelayakan Pemberian Kredit</h1>
-        <p class="lead">Menggunakan Algoritma Decission Tree Metode C-45</p>
+        <p class="lead">Menggunakan Metode Decission Tree Algoritma C-45</p>
         <p class="lead">
           <a href="dataUji/create.php" class="btn btn-lg btn-secondary">Uji Data Sekarang !</a>
         </p>

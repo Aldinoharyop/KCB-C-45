@@ -155,6 +155,19 @@
             </div>
           </div>
 
+          <div class="form-group row" hidden="hidden">
+            <div class="col-md-5">
+              <label for="form_kelas">Kelas</label>
+            </div>
+            <div class="col-md-7">
+              <select class="custom-select form-control-sm" name="kelas">
+                <option selected>Pilih</option>
+                <option value="Lancar">Lancar</option>
+                <option value="Macet">Macet</option>
+              </select>
+            </div>
+          </div>
+
           <button type="submit" class="btn btn-primary mb-2">Submit</button>
 
         </div>
