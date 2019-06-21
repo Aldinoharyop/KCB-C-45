@@ -23,7 +23,7 @@
         // }
 
         public function read(){
-            $sql = "SELECT * FROM dt_survey";
+            $sql = "SELECT * FROM dt_survey  WHERE id BETWEEN 1 AND 300";
             $dt_survey = $this->conn->query($sql);
             return $dt_survey;
         }

@@ -1,9 +1,9 @@
 <?php
-    include '../../Models/Artikel.php';
+    include '../../Models/dataUji.php';
 
     $id = $_POST['id'];
-    if ($artikel->delete($id)){
-        header("Location:../views/index.php");
+    if ($dt_hasil->delete($id)){
+        header("Location:../../views/dataUji/index.php");
     }
     echo 'gagal menghapusnya';
 ?>

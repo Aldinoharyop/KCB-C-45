@@ -75,9 +75,9 @@
         //     return $artikel;
         // }
 
-        // public function delete($id){
-        //     $sql = "DELETE FROM artikel WHERE id = '$id'";
-        //     return mysqli_query($this->conn, $sql);
-        // }
+        public function delete($id){
+            $sql = "DELETE FROM dt_hasil WHERE id = '$id'";
+            return mysqli_query($this->conn, $sql);
+        }
     }
 ?>

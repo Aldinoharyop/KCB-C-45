@@ -50,7 +50,7 @@
                     <th>Jaminan</th>
                     <th>Kelas</th>
                     
-                    <!-- <th colspan="2">Action</th> -->
+                    <th colspan="2">Action</th>
                 </tr>
             </thead>
             <tbody>
@@ -70,9 +70,13 @@
                                 <td>'.$post["waktu"].'</td>
                                 <td>'.$post["jaminan"].'</td>
                                 <td>'.$post["kelas"].'</td>
-                                
+                                <td>
+                                    <form action="../../Controllers/dataUji/DestroyController.php" method="post">
+                                        <input name="id" type="hidden" value="'.$post["id"].'">
+                                        <button class="btn btn-danger" type="submit">Delete</button>
+                                    </form>
+                                    </td>
                             </tr>
-
                         ';
                         }
                     }
